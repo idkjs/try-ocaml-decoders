@@ -1,4 +1,4 @@
-# melange-basic-template
+# melange && ocaml-decoders
 
 A simple project template using [Melange](https://github.com/melange-re/melange).
 

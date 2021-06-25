@@ -1,9 +1,11 @@
 {
   "name": "melange-project",
   "dependencies": {
-    "ocaml": "4.12.x",
+    "@opam/decoders-yojson": "0.6.0",
+    "@opam/ocaml-lsp-server": "*",
+    "bs-decoders": "^0.6.0",
     "melange": "melange-re/melange",
-    "@opam/ocaml-lsp-server": "*"
+    "ocaml": "4.12.x"
   },
   "esy": {
     "buildsInSource": "unsafe",
@@ -12,7 +14,5 @@
       "bsb -make-world"
     ]
   },
-  "installConfig": {
-    "pnp": false
-  }
+  "installConfig": { "pnp": false }
 }

@@ -1,0 +1,24 @@
+{
+  "name": "try-ocaml-decoders",
+  "version": "1.0.0",
+  "description": "A simple project template using [Melange](https://github.com/melange-re/melange).",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idkjs/try-ocaml-decoders.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idkjs/try-ocaml-decoders/issues"
+  },
+  "homepage": "https://github.com/idkjs/try-ocaml-decoders#readme",
+  "dependencies": {
+    "bs-decoders": "^0.6.0"
+  }
+}
